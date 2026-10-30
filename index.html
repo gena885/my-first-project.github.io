@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ремонт обуви в Минске — мастерская на Серова, 17</title>
+<meta name="description" content="Мастерская по ремонту обуви в Минске, ул. Серова, 17. Мастер Прилашкевич Геннадий Святославович. Тел. +375 29 856 32 58.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EEF0EC; --surface:#FFFFFF; --ink:#1C2B2A; --muted:#5A6866; --thread:#E3AE12; --thread-ink:#1C2B2A; --sole:#1C2B2A; --on-sole:#EEF0EC; --line:#8A9794;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#121A19; --surface:#1B2726; --ink:#EEF0EC; --muted:#A3B0AD; --sole:#0B1110; --on-sole:#EEF0EC; --line:#5F6F6C;}
+}
+:root[data-theme="dark"]{--bg:#121A19; --surface:#1B2726; --ink:#EEF0EC; --muted:#A3B0AD; --sole:#0B1110; --on-sole:#EEF0EC; --line:#5F6F6C;}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 18px/1.6 "Source Sans 3",system-ui,sans-serif}
+h1,h2,h3{font-family:Rubik,system-ui,sans-serif;line-height:1.1;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--thread);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+.seam{border:0;border-top:3px dashed var(--thread);margin:0;opacity:.95}
+
+header{padding:18px 0}
+header .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font:700 18px Rubik,sans-serif;text-decoration:none}
+.tel{font:700 17px Rubik,sans-serif;text-decoration:none;white-space:nowrap}
+
+.hero{padding:40px 0 56px}
+.hero h1{font-weight:800;font-size:clamp(40px,9vw,92px);letter-spacing:-.02em;max-width:12ch}
+.hero p{max-width:34em;color:var(--muted);font-size:20px;margin:22px 0 30px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:15px 24px;border-radius:6px;font:700 17px Rubik,sans-serif;text-decoration:none;border:2px solid var(--ink)}
+.btn.main{background:var(--thread);color:var(--thread-ink);border-color:var(--thread)}
+.btn.main:hover{filter:brightness(1.07)}
+.btn:not(.main):hover{background:var(--ink);color:var(--bg)}
+
+section{padding:56px 0}
+h2{font-weight:800;font-size:clamp(28px,5vw,44px);margin-bottom:10px}
+.lead{color:var(--muted);max-width:36em;margin:0 0 30px}
+
+.services{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}
+.svc{background:var(--surface);padding:22px;border:2px dashed var(--line);border-radius:4px}
+.svc h3{font-size:20px;margin-bottom:6px}
+.svc p{margin:0;color:var(--muted);font-size:17px}
+
+.sole{background:var(--sole);color:var(--on-sole)}
+.sole .lead{color:#B5C0BD}
+.how{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:26px;counter-reset:s;padding:0;margin:0;list-style:none}
+.how li{counter-increment:s;border-top:3px dashed var(--thread);padding-top:16px}
+.how li::before{content:counter(s);font:800 34px Rubik,sans-serif;color:var(--thread);display:block;margin-bottom:6px}
+.how b{font:700 20px Rubik,sans-serif;display:block;margin-bottom:4px}
+.how span{color:#B5C0BD;font-size:17px}
+
+.contact{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:36px;align-items:start}
+.contact dl{margin:0}
+.contact dt{color:var(--muted);font-size:15px;margin-top:18px}
+.contact dd{margin:2px 0 0;font:700 22px Rubik,sans-serif}
+.contact dd a{text-decoration:none;border-bottom:3px solid var(--thread)}
+.maps{display:flex;flex-direction:column;gap:12px}
+
+footer{padding:26px 0 34px;color:var(--muted);font-size:15px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top">Ремонт обуви · Серова, 17</a>
+    <a class="tel" href="tel:+375298563258">+375 29 856 32 58</a>
+  </div>
+</header>
+<hr class="seam">
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <h1>Ваша обувь прослужит ещё сезон</h1>
+      <p>Мастерская в Минске на улице Серова, 17. Чиним подошвы, каблуки, молнии и швы. Работаем аккуратно, срок и цену называем сразу после осмотра.</p>
+      <div class="btns">
+        <a class="btn main" href="tel:+375298563258">Позвонить мастеру</a>
+        <a class="btn" href="#contacts">Как нас найти</a>
+      </div>
+    </div>
+  </div>
+  <hr class="seam">
+
+  <section id="services">
+    <div class="wrap">
+      <h2>Что ремонтируем</h2>
+      <p class="lead">Если вашей проблемы нет в списке, всё равно позвоните: часто её можно решить.</p>
+      <div class="services">
+        <div class="svc"><h3>Замена набоек</h3><p>Новые набойки на каблуки, чтобы не стирался каблук и не цокало.</p></div>
+        <div class="svc"><h3>Подошва</h3><p>Подклейка отошедшей подошвы и замена изношенной на новую.</p></div>
+        <div class="svc"><h3>Каблуки</h3><p>Ремонт и замена каблуков на женской и мужской обуви.</p></div>
+        <div class="svc"><h3>Молнии</h3><p>Замена сломанной молнии на сапогах, ботинках и сумках.</p></div>
+        <div class="svc"><h3>Швы и строчка</h3><p>Прошивка разошедшихся швов, укрепление ослабленных мест.</p></div>
+        <div class="svc"><h3>Растяжка</h3><p>Растянем обувь, которая жмёт в пальцах или в подъёме.</p></div>
+        <div class="svc"><h3>Подкладка и стельки</h3><p>Замена порванной подкладки и стелек.</p></div>
+        <div class="svc"><h3>Уход за кожей</h3><p>Чистка, крем и восстановление цвета.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sole">
+    <div class="wrap">
+      <h2>Как это работает</h2>
+      <p class="lead">Без записи и сложностей: приносите обувь, как есть.</p>
+      <ol class="how">
+        <li><b>Приносите обувь</b><span>Мастер осмотрит её при вас.</span></li>
+        <li><b>Называем цену и срок</b><span>Договариваемся до начала работы.</span></li>
+        <li><b>Чиним</b><span>Подбираем материалы под вашу пару.</span></li>
+        <li><b>Забираете</b><span>Проверяете результат на месте.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="contacts">
+    <div class="wrap">
+      <h2>Контакты</h2>
+      <p class="lead">Позвоните заранее, если хотите уточнить время работы и сроки.</p>
+      <div class="contact">
+        <dl>
+          <dt>Мастер</dt>
+          <dd>Прилашкевич Геннадий Святославович</dd>
+          <dt>Адрес</dt>
+          <dd>г. Минск, ул. Серова, 17</dd>
+          <dt>Телефон</dt>
+          <dd><a href="tel:+375298563258">+375 29 856 32 58</a></dd>
+        </dl>
+        <div class="maps">
+          <a class="btn main" href="https://yandex.ru/maps/org/1379263179?si=hy9qhqnfdybme4e36t587ztgz0" target="_blank" rel="noopener">Открыть в Яндекс Картах</a>
+          <a class="btn" href="https://maps.app.goo.gl/GQhuY9i1mF5MzsrY7" target="_blank" rel="noopener">Открыть в Google Картах</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<hr class="seam">
+<footer>
+  <div class="wrap">Мастерская по ремонту обуви · г. Минск, ул. Серова, 17 · Прилашкевич Г. С.</div>
+</footer>
+</body>
+</html>
